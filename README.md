@@ -18,6 +18,12 @@ Then run the following script:
 python utils/generate_notebooks.py --output_dir nbs
 ```
 
+If you use *venv* remember to install a new kernel into your jupyter lab/notebook: 
+
+
+```bash
+python -m ipykernel install --user --name=nlp-course-venv
+```
 This script extracts all the code snippets from the chapters and stores them as notebooks in the `nbs` folder.
 
 ## 🙌 Acknowledgements
