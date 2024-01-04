@@ -1,5 +1,5 @@
 # Encoder models
-They use only the **encoder** from the Transformer architecture. 
+They only use the **Encoder** from the Transformer architecture. 
 
 ![Encoder idea](Images/0_encoder.png "Encoder idea")
 
