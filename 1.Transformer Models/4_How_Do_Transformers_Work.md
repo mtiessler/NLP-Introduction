@@ -14,7 +14,7 @@
 ## How do the language model transformers work?
 These transformer models have been trained as *language models*. 
 
-They have been **trained** on large amounts of **raw text** in a **self-supervised** fashion.
+They have been **trained** on large amounts of **raw text** in a **self-supervised** fashion. This means the labels are created automatically from the inputs (like predicting the next word or filling in some masked words).
 
 The **language models** develop a **statistical understanding** of the language it has been trained on.
 
