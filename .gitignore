@@ -79,3 +79,4 @@ notes
 __pycache__/
 .cache/
 
+.idea
