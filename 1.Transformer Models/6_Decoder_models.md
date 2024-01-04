@@ -1,16 +1,17 @@
 # Encoder models
-They use only the **decoder** from the Transformer architecture. 
+They only use the **decoder** from the Transformer architecture. 
+
 ![Feature Vectors](Images/1_decoder.png "Feature Vectors")
 
 ## How does it work
-It can perform **most of the same tasks as an encoder** but with a loss of performance. 
+It can perform **most of the same tasks as an encoder**. This comes with a loss of performance. 
 
 ![Feature Vectors](Images/2_decoder.png "Feature Vectors")
 
 
 The decoder converts words into sequences of numbers (**feature vectors/tensors**):
 
-It generates one **feature tensor** per word it was passed to the encoder.
+It generates one **feature tensor** per word it was passed to the Decoder.
 
 The **dimension of the vector** is defined by **the architecture of the model**. 
 
@@ -19,17 +20,17 @@ The **dimension of the vector** is defined by **the architecture of the model**.
 
 The vector value is the numerical value of the word but **single contextualized**. 
 
-This means that is a representation of the word and the one on the left or on the right (right or left context). 
+This means that is a representation of the word and the one on the left or on the right (**right or left context**). 
 ![Feature Vectors](Images/3_decoder.png "Feature Vectors")
 
-It is a **single contextualized** value. As a result, the vector holds the word meaning within the text.
+It is a **single contextualized** value. As a result, the vector holds the word meaning only taking into account either the **left or right** context.
 This is thanks to the **masked self-attention mechanism**. It uses an additional mask in one of the sides of the word.
 
 ## Characteristics
 At each stage: 
-- **Attention layers** can access **all** the words in the initial sentence
+- **Attention layers** can access **the left or right words** in the initial sentence
 
-The encoder models are: 
+The Decoder models are: 
 - Unidirectional context (given a word, it can look at only its right or left words)
 - Autoregressive (uses its pasts outputs as inputs for the following steps)
 
