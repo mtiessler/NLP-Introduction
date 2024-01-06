@@ -4,6 +4,23 @@ This repo contains a summary from the **[Hugging Face NLP course](https://huggin
 
 The course teaches you about applying Transformers to various tasks in natural language processing and beyond. Along the way, you'll learn how to use the [Hugging Face](https://huggingface.co/) ecosystem — [🤗 Transformers](https://github.com/huggingface/transformers), [🤗 Datasets](https://github.com/huggingface/datasets), [🤗 Tokenizers](https://github.com/huggingface/tokenizers), and [🤗 Accelerate](https://github.com/huggingface/accelerate) — as well as the [Hugging Face Hub](https://huggingface.co/models).
 
+## Pytorch
+
+The notebooks and notes within this repository use [PyTorch](https://pytorch.org/get-started/locally/). 
+
+For installing, execute the following command: 
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+```bash
+ pip install transformers[torch]
+```
+
+
+
+You can also just install the `requirements.txt` files.
 ## 📔 Jupyter notebooks
 
 The Jupyter notebooks containing all the code from the course are hosted on the [`huggingface/notebooks`](https://github.com/huggingface/notebooks) repo. If you wish to generate them locally, first install the required dependencies:
