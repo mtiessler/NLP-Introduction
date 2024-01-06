@@ -131,7 +131,7 @@ def build_notebook(fname, title, output_dir="."):
     """
     sections = read_and_split_frameworks(fname)
     sections_with_accelerate = [
-        "chapter3/4",  # "A full training",
+        "3.Fine-Tunning A Pretrianed Model/4",  # "A full training",
         "chapter7/2_pt",  # "Token classification (PyTorch)",
         "chapter7/3_pt",  # "Fine-tuning a masked language model (PyTorch)"
         "chapter7/4_pt",  # "Translation (PyTorch)"
