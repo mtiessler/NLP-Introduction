@@ -11,11 +11,11 @@ The notebooks and notes within this repository use [PyTorch](https://pytorch.org
 For installing, execute the following command: 
 
 ```bash
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip3 install torch torchvision torchaudio
 ```
 
 ```bash
- pip install transformers[torch]
+pip install transformers[torch]
 ```
 
 
