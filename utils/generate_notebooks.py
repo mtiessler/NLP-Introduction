@@ -132,30 +132,24 @@ def build_notebook(fname, title, output_dir="."):
     sections = read_and_split_frameworks(fname)
     sections_with_accelerate = [
         "3.Fine-Tunning A Pretrianed Model/4",  # "A full training",
-        "chapter7/2_pt",  # "Token classification (PyTorch)",
-        "chapter7/3_pt",  # "Fine-tuning a masked language model (PyTorch)"
-        "chapter7/4_pt",  # "Translation (PyTorch)"
-        "chapter7/5_pt",  # "Summarization (PyTorch)",
-        "chapter7/6_pt",  # "Training a causal language model from scratch (PyTorch)"
-        "chapter7/7_pt",  # "Question answering (PyTorch)"
+        "7.Main NLP Tasks/2_pt",  # "Token classification (PyTorch)",
+        "7.Main NLP Tasks/3_pt",  # "Fine-tuning a masked language model (PyTorch)"
+        "7.Main NLP Tasks/4_pt",  # "Translation (PyTorch)"
+        "7.Main NLP Tasks/5_pt",  # "Summarization (PyTorch)",
+        "7.Main NLP Tasks/6_pt",  # "Training a causal language model from scratch (PyTorch)"
+        "7.Main NLP Tasks/7_pt",  # "Question answering (PyTorch)"
     ]
     sections_with_hf_hub = [
         "chapter4/3_pt",  # "Sharing pretrained models (PyTorch)"
-        "chapter4/3_tf",  # "Sharing pretrained models (TensorFlow)"
         "chapter5/5",  # "Creating your own dataset"
-        "chapter7/2_pt",  # "Token classification (PyTorch)"
-        "chapter7/2_tf",  # "Token classification (TensorFlow)"
+        "7.Main NLP Tasks/2_pt",  # "Token classification (PyTorch)"
         "chapter6/2",  # "Training a new tokenizer from an old one"
-        "chapter7/3_pt",  # "Fine-tuning a masked language model (PyTorch)"
-        "chapter7/3_tf",  # "Fine-tuning a masked language model (TensorFlow)"
-        "chapter7/4_pt",  # "Translation (PyTorch)"
-        "chapter7/4_tf",  # "Translation (TensorFlow)"
-        "chapter7/5_pt",  # "Summarization (PyTorch)"
-        "chapter7/5_tf",  # "Summarization (TensorFlow)"
-        "chapter7/6_pt",  # "Training a causal language model from scratch (PyTorch)"
-        "chapter7/6_tf",  # "Training a causal language model from scratch (TensorFlow)"
-        "chapter7/7_pt",  # "Question answering (PyTorch)"
-        "chapter7/7_tf",  # "Question answering (TensorFlow)"
+        "7.Main NLP Tasks/3_pt",  # "Fine-tuning a masked language model (PyTorch)"
+        "7.Main NLP Tasks/4_pt",  # "Translation (PyTorch)"
+        "7.Main NLP Tasks/5_pt",  # "Summarization (PyTorch)"
+        "7.Main NLP Tasks/6_pt",  # "Training a causal language model from scratch (PyTorch)"
+        "7.Main NLP Tasks/6_tf",  # "Training a causal language model from scratch (TensorFlow)"
+        "7.Main NLP Tasks/7_pt",  # "Question answering (PyTorch)"
         "chapter8/2",  # "What to do when you get an error"
     ]
     sections_with_faiss = [
